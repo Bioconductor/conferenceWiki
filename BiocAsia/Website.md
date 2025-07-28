@@ -4,11 +4,17 @@ This guide documents how to set up and deploy the BioCAsia website using GitHub 
 
 ---
 
-### 🧬 1. Fork & Clone the Template
+### 1. Create Repo Under Bioconductor
 
-1. **Fork** the [BioC_template](https://github.com/Bioconductor/BioC_template.git) (or another preferred template).
-2. **Rename** your forked repo (e.g. `BioCAsia2025`).
-3. **Clone** it locally:
+Rather than forking to a personal account and transferring later, it's generally cleaner to create the repository directly under the Bioconductor GitHub organization.
+
+Steps:
+
+Request a Bioconductor admin to create the repository using [BioC_template](https://github.com/Bioconductor/BioC_template.git) (or another preferred template)
+
+Ask to be added as an admin/collaborator on that specific repo (no need for full org access)
+
+Clone the repo and start working as normal
 
 ---
 
@@ -25,6 +31,8 @@ Test locally (if Hugo is used):
 ```bash
 hugo serve
 ```
+---
+
 ### 3. Transfer Ownership to Bioconductor
 
 * Go to your GitHub repo: https://github.com/YourUsername/BioCAsia2025
@@ -43,6 +51,7 @@ hugo serve
 Netlify will build and host the site at a temporary URL like `biocasia2025.netlify.app`.
 
 ---
+
 ### 5. Route53 DNS Setup (Handled by Bioconductor)
 
 The Bioconductor AWS admin will:
