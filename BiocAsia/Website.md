@@ -71,4 +71,4 @@ Once DNS propagates, the domain will be live.
 
 ---
 
-Go to your webiste! It takes a few minutes for your domain to be secure.
+Go to your website! It takes a few minutes for your domain to be secure.
