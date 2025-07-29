@@ -10,7 +10,7 @@ Rather than forking to a personal account and transferring later, it's generally
 
 Steps:
 
-Request a Bioconductor admin to create the repository using [BioC_template](https://github.com/Bioconductor/BioC_template.git) (or another preferred template)
+Request a Bioconductor admin (core team e.g., Lori) to create the repository using [BioC_template](https://github.com/Bioconductor/BioC_template.git) (or another preferred template)
 
 Ask to be added as an admin/collaborator on that specific repo (no need for full org access)
 
