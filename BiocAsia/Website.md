@@ -33,14 +33,7 @@ hugo serve
 ```
 ---
 
-### 3. Transfer Ownership to Bioconductor
-
-* Go to your GitHub repo: https://github.com/YourUsername/BioCAsia2025
-* Click Settings > scroll to Danger Zone > Transfer Ownership
-
----
-
-### 4. Create Netlify Site
+### 3. Create Netlify Site
 
 1. Go to [https://app.netlify.com](https://app.netlify.com)
 2. Log in with GitHub
@@ -52,7 +45,7 @@ Netlify will build and host the site at a temporary URL like `biocasia2025.netli
 
 ---
 
-### 5. Route53 DNS Setup (Handled by Bioconductor)
+### 4. Route53 DNS Setup (Handled by Bioconductor)
 
 The Bioconductor AWS admin will:
 
@@ -63,7 +56,7 @@ Once DNS propagates, the domain will be live.
 
 ---
 
-### 6. Add Custom Domain
+### 5. Add Custom Domain
 
 1. In Netlify, go to **Site settings > Domain management**
 2. Click **“Add custom domain”**
